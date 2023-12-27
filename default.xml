@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<manifest>
+    <remote
+        name="origin"
+        fetch="https://github.com/pyernhuy"
+    />
+    <default
+        remote="origin"
+        revision="main"
+        sync-j="4"
+    />
+    <project path="application" name="application.git" revision="app"/>
+    <project path="sdk" name="sdk.git" revision="ipc"/>
+</manifest>
+
